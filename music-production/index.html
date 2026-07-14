@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Music Production — Charlie Allan Holmes</title>
+<meta name="description" content="Music production work by Charlie Allan Holmes — original composition, mixing, and mastering.">
+<link rel="canonical" href="https://www.charlieallanholmes.com/music-production/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav">
+    <a class="brand" href="/">Charlie Allan <span>Holmes</span></a>
+    <ul class="nav-links">
+      <li><a href="/">Home</a></li>
+      <li><a href="/video-production/">Video Production</a></li>
+      <li><a href="/music-production/">Music Production</a></li>
+      <li><a href="/photography/">Photography</a></li>
+      <li><a href="/#contact">Contact</a></li>
+    </ul>
+    <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+  </nav>
+</header>
+
+<main>
+  <section class="page-title">
+    <div class="container">
+      <div class="eyebrow">02 — Sound</div>
+      <h1>Music Production</h1>
+      <p>Original composition, mixing, and mastering. Full albums below, plus individual tracks.</p>
+    </div>
+  </section>
+
+  <section class="section" style="border-top:none;">
+    <div class="container">
+      <div class="spotify-grid" data-spotify-grid></div>
+      <div class="tracklist" data-tracklist></div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <small>&copy; <span id="year"></span> Charlie Allan Holmes</small>
+    <small><a href="/#contact">Get in touch</a></small>
+  </div>
+</footer>
+
+<script src="/assets/js/site-content.js"></script>
+<script src="/assets/js/main.js"></script>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

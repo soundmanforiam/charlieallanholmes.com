@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Charlie Allan Holmes — Video, Music &amp; Photography</title>
+<meta name="description" content="Charlie Allan Holmes is a multidisciplinary content creator working across video production, music production, and photography.">
+<link rel="canonical" href="https://www.charlieallanholmes.com/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav">
+    <a class="brand" href="/">Charlie Allan <span>Holmes</span></a>
+    <ul class="nav-links">
+      <li><a href="/">Home</a></li>
+      <li><a href="/video-production/">Video Production</a></li>
+      <li><a href="/music-production/">Music Production</a></li>
+      <li><a href="/photography/">Photography</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+  </nav>
+</header>
+
+<main>
+
+<section class="hero">
+    <div class="container hero-inner">
+      <div class="hero-copy">
+        <div class="timecode">REC <span data-timecode>00:00:00</span> — FORT WORTH, TX</div>
+        <h1>Charlie Allan <span class="accent">Holmes</span></h1>
+        <div class="hero-role">VIDEO — MUSIC — PHOTOGRAPHY</div>
+        <p class="lede" data-site-about>Multidisciplinary creative working across music production, video storytelling, and photography.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="/video-production/">Watch the reel</a>
+          <a class="btn btn-ghost" href="#contact">Get in touch</a>
+        </div>
+      </div>
+      <div class="hero-photo">
+        <img src="/assets/img/profile.png" alt="Charlie Allan Holmes">
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="eyebrow">Disciplines</div>
+      <div class="discipline-grid">
+        <a class="discipline-card" href="/video-production/">
+          <div>
+            <span class="reel-tag">01 — MOTION</span>
+            <h3>Video Production</h3>
+            <p>Storytelling through the lens — commercial work, music videos, and narrative shorts.</p>
+          </div>
+          <span class="go">View reel →</span>
+        </a>
+        <a class="discipline-card" href="/music-production/">
+          <div>
+            <span class="reel-tag">02 — SOUND</span>
+            <h3>Music Production</h3>
+            <p>Original composition, mixing, and mastering across genres and collaborators.</p>
+          </div>
+          <span class="go">Listen →</span>
+        </a>
+        <a class="discipline-card" href="/photography/">
+          <div>
+            <span class="reel-tag">03 — STILLS</span>
+            <h3>Photography</h3>
+            <p>Portraits and moments captured with the same eye for story as the video work.</p>
+          </div>
+          <span class="go">View gallery →</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <div class="eyebrow">Selected work</div>
+          <h2>Recent Video</h2>
+        </div>
+        <a class="view-all" href="/video-production/">All video work →</a>
+      </div>
+      <div class="video-grid" data-video-grid data-limit="3"></div>
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="about-grid">
+        <div>
+          <div class="eyebrow">Get in touch</div>
+          <h2>Let's work together</h2>
+          <p>Open to commercial video, music production, and photography projects. Reach out with a bit about your project and timeline.</p>
+        </div>
+        <div class="contact-card">
+          <div class="label">Email</div>
+          <a class="email" data-site-email href="mailto:hello@charlieallanholmes.com">hello@charlieallanholmes.com</a>
+          <div class="socials" data-site-socials></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <small>&copy; <span id="year"></span> Charlie Allan Holmes</small>
+    <small>Built with Cloudflare Pages</small>
+  </div>
+</footer>
+
+<div class="lightbox" id="video-lightbox">
+  <div class="lightbox-inner">
+    <button class="lightbox-close">Close ✕</button>
+    <div class="lightbox-frame"></div>
+  </div>
+</div>
+
+<script src="/assets/js/site-content.js"></script>
+<script src="/assets/js/main.js"></script>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
