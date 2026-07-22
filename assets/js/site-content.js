@@ -31,15 +31,17 @@ window.SITE_CONTENT = {
   //   YouTube: youtube.com/watch?v=THIS_PART  or youtu.be/THIS_PART
   //   Vimeo:   vimeo.com/THIS_PART
   videos: [
-    { platform: "youtube", id: "Pin-b_cU3Ts", title: "Project Reel" },
-    { platform: "youtube", id: "Beqa3dLnL2E", title: "Project Reel" },
-    { platform: "youtube", id: "mXdUa64PurY", title: "Project Reel" },
-    { platform: "youtube", id: "vHl_5d49bZ8", title: "Project Reel" },
-    { platform: "youtube", id: "jO_gjj_qYOk", title: "Project Reel" },
-    { platform: "youtube", id: "kT7Xwmtdvgg", title: "Project Reel" },
-    { platform: "youtube", id: "tTd3xcLFSSc", title: "Project Reel" },
-    { platform: "youtube", id: "9NUpzccT-mE", title: "Project Reel" },
-    { platform: "vimeo",   id: "1075196763", title: "Project Reel" },
+    { platform: "youtube", id: "DdxVZu6qfTw", title: "Political Campain Demo" },
+    { platform: "youtube", id: "P70dvybJYCg", title: "Ronnie Fades Barber" },
+    { platform: "youtube", id: "Pin-b_cU3Ts", title: "Prison Ministry" },
+    { platform: "youtube", id: "Beqa3dLnL2E", title: "Interview" },
+    { platform: "youtube", id: "mXdUa64PurY", title: "Interview" },
+    { platform: "youtube", id: "vHl_5d49bZ8", title: "Christian Movie Preview" },
+    { platform: "youtube", id: "jO_gjj_qYOk", title: "Interview" },
+    { platform: "youtube", id: "kT7Xwmtdvgg", title: "Interview" },
+    { platform: "youtube", id: "tTd3xcLFSSc", title: "Interview" },
+    { platform: "youtube", id: "9NUpzccT-mE", title: "Interview" },
+    { platform: "vimeo",   id: "1075196763", title: "Interview" },
   ],
 
   // ---- MUSIC PRODUCTION -------------------------------------------------
