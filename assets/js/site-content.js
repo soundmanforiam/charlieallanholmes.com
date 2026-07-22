@@ -32,6 +32,8 @@ window.SITE_CONTENT = {
   //   Vimeo:   vimeo.com/THIS_PART
   videos: [
     { platform: "youtube", id: "DdxVZu6qfTw", title: "Political Campain Demo" },
+    { platform: "youtube", id: "NqjCPSHIs10", title: "Fund Raising Ad" },
+    { platform: "youtube", id: "ScAEfNXG1dk", title: "Fund Raising Ad" },
     { platform: "youtube", id: "P70dvybJYCg", title: "Ronnie Fades Barber" },
     { platform: "youtube", id: "Pin-b_cU3Ts", title: "Prison Ministry" },
     { platform: "youtube", id: "Beqa3dLnL2E", title: "Interview" },
